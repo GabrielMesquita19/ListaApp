@@ -41,7 +41,4 @@ class ListManager {
         list.remove(at: index)
         saveList()
     }
-    
-    
 }
-
