@@ -14,6 +14,9 @@
 		CEB197F6286AB39000F76070 /* LIstApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEB197F4286AB39000F76070 /* LIstApp.xcdatamodeld */; };
 		CEB197F8286AB39100F76070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB197F7286AB39100F76070 /* Assets.xcassets */; };
 		CEB197FB286AB39100F76070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB197F9286AB39100F76070 /* LaunchScreen.storyboard */; };
+		CEB19808286AB4E900F76070 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB19807286AB4E900F76070 /* ListTableViewController.swift */; };
+		CEB1980C286AB51700F76070 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1980B286AB51700F76070 /* AddViewController.swift */; };
+		CEB1980F286AB53500F76070 /* ListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1980E286AB53500F76070 /* ListManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		CEB197F7286AB39100F76070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB197FA286AB39100F76070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB197FC286AB39100F76070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB19807286AB4E900F76070 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		CEB1980B286AB51700F76070 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		CEB1980E286AB53500F76070 /* ListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				CEB197ED286AB39000F76070 /* SceneDelegate.swift */,
 				CEB197EF286AB39000F76070 /* ViewController.swift */,
 				CEB197F1286AB39000F76070 /* Main.storyboard */,
+				CEB1980B286AB51700F76070 /* AddViewController.swift */,
+				CEB1980E286AB53500F76070 /* ListManager.swift */,
+				CEB19807286AB4E900F76070 /* ListTableViewController.swift */,
 				CEB197F7286AB39100F76070 /* Assets.xcassets */,
 				CEB197F9286AB39100F76070 /* LaunchScreen.storyboard */,
 				CEB197FC286AB39100F76070 /* Info.plist */,
@@ -142,7 +151,10 @@
 			files = (
 				CEB197F0286AB39000F76070 /* ViewController.swift in Sources */,
 				CEB197F6286AB39000F76070 /* LIstApp.xcdatamodeld in Sources */,
+				CEB1980C286AB51700F76070 /* AddViewController.swift in Sources */,
+				CEB1980F286AB53500F76070 /* ListManager.swift in Sources */,
 				CEB197EC286AB39000F76070 /* AppDelegate.swift in Sources */,
+				CEB19808286AB4E900F76070 /* ListTableViewController.swift in Sources */,
 				CEB197EE286AB39000F76070 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Mesquita.LIstApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Mesquita.LIstApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
